@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <title>Quotes</title>
+    <style>
+      body {
+        margin: 30px 20px 20px 0;
+        color: #424242;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-style: italic;
+      }
+      .quote-area {
+        margin-top: 3rem;
+        padding: 3rem 18rem;
+        padding-left: 23rem;
+      }
+      button {
+        color: #424242 !important;
+      }
+      button:hover {
+        background-color: #f4f4f4 !important ;
+      }
+      .btn:focus,
+      .btn:active {
+        outline: none !important;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-5">Popular Quotes</h1>
+      <div class="row">
+        <div class="offset-4">
+          <h3 class="text-center mb-3">Authors</h3>
+          <button class="btn btn-outline-dark" value="Seneca">Seneca</button>
+          <button class="btn btn-outline-dark" value="Aristotle">Aristotle</button>
+          <button class="btn btn-outline-dark" value="Buddha">Buddha</button>
+          <button class="btn btn-outline-dark" value="Dalai Lama">Dalai Lama</button>
+          <button class="btn btn-outline-dark btn-block mt-2">Random</button>
+        </div>
+      </div>
+      <div class="row quote-area">
+        <div class="quote-here font-italic"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
