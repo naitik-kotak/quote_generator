@@ -1,9 +1,12 @@
+//fetching buttons
 $('button').click(getQuotes);
 
+//generate a random number
 function randomNumber(upperLimit = 200) {
   return Math.floor(Math.random() * upperLimit + 1);
 }
 
+//event listener function
 function getQuotes(e) {
   const xhr = new XMLHttpRequest();
 
